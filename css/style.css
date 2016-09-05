@@ -1,0 +1,47 @@
+/*Global*/
+
+.wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #4191a7;
+}
+
+p {
+	padding: 30px 0;
+	text-align: justify;
+	color: #515151;
+	line-height: 1.5;
+}
+
+/*Header*/
+
+header {
+	text-align: center;
+	padding: 30px 0;
+	background: #333;
+}
+
+nav {
+	padding-top: 20px;
+}
+
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+/* Content */
+
+.content img {
+	width: 100%;
+}
+
+/*footer*/
