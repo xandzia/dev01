@@ -143,6 +143,8 @@ iframe {
 	color: #1d1c1d;
 }
 
+
+
 /* FORM */
 
 form {
@@ -202,6 +204,15 @@ figcaption {
 	font-size: 15px;
 	padding: 0;
 	line-height: 7;
+}
+
+/*Sliders*/
+
+.flex-prev {
+  background: url('../img/arrow-left-01.png');
+}
+.flex-next {
+  background: url('../img/arrow-right-01.png');
 }
 
 .img-01 {

@@ -5,6 +5,8 @@
 	<title>Marafon</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<style>
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
 </style>
@@ -32,18 +34,18 @@
 
 	<!-- Content -->
 	<section class="content">
-	<div class="col-12 cf">
-		<div class="col-4">
-			<article>
+		<div class="col-12 cf">
+			<div class="col-4">
+				<article>
 					<figure class="img-01"></figure>
-					<figcaption>
-						<div class="title">
-							<p>Color run</p>
-						</div>
-					</figcaption>
-			</article>
-		</div>
-		<div class="col-4">
+						<figcaption>
+							<div class="title">
+								<p>Color run</p>
+							</div>
+						</figcaption>
+				</article>
+			</div>
+			<div class="col-4">
 			<article>
 					<figure class="img-02"></figure>
 					<figcaption>
@@ -52,8 +54,8 @@
 						</div>
 					</figcaption>
 			</article>
-		</div>
-		<div class="col-4">
+			</div>
+			<div class="col-4">
 			<article>
 					<figure class="img-03"></figure>
 					<figcaption>
@@ -62,43 +64,72 @@
 						</div>
 					</figcaption>
 			</article>
+			</div>
+		</div>	
+		<div class="col-12 cf">
+			<div class="col-4">
+				<article>
+					<figure class="img-04"></figure>
+						<figcaption>
+							<div class="title">
+								<p>Poltava Half Marathon</p>
+							</div>
+						</figcaption>
+				</article>
+			</div>
+			<div class="col-4">
+				<article>
+					<figure class="img-05"></figure>
+						<figcaption>
+							<div class="title">
+								<p>Knyazheskaya sotnya</p>
+							</div>
+						</figcaption>
+				</article>
+			</div>
+			<div class="col-4">
+				<article>
+					<figure class="img-06"></figure>
+						<figcaption>
+							<div class="title">
+								<p>Didorovka XC Duathlon, MTB Race & Trail Run</p>
+							</div>
+						</figcaption>
+				</article>
+			</div>
 		</div>
-	</div>	
-	<div class="col-12 cf">
-		<div class="col-4">
-			<article>
-				<figure class="img-04"></figure>
-					<figcaption>
-						<div class="title">
-							<p>Poltava Half Marathon</p>
-						</div>
-					</figcaption>
-			</article>
+	<!--Flexslider -->
+		<div class="wrapper">
+			<div class="flexslider">
+			  <ul class="slides">
+				    <li>
+				      <img src="img/photos3.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/photos5.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/photos6.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/fan run.jpg" />
+				    </li>
+			  </ul>
+			  <ul class="flex-direction-nav">
+			  	<li><a href="#" class="flex-prev"></a></li>
+			  	<li><a href="#" class="flex-next"></a></li>
+			  </ul>
+			</div>
 		</div>
-		<div class="col-4">
-			<article>
-				<figure class="img-05"></figure>
-					<figcaption>
-						<div class="title">
-							<p>Knyazheskaya sotnya</p>
-						</div>
-					</figcaption>
-			</article>
-		</div>
-		<div class="col-4">
-			<article>
-				<figure class="img-06"></figure>
-					<figcaption>
-						<div class="title">
-							<p>Didorovka XC Duathlon, MTB Race & Trail Run</p>
-						</div>
-					</figcaption>
-			</article>
-		</div>
-	</div>
+	</section>
+
 		
+		<!-- Footer -->
+	<footer>
 			<a href="#" target="_blank">Марафонцы</a>
-		</div>
+		
 	</footer>
+	<script src='scripts/main.js'></script>
+	<script src="scripts/jquery.flexslider.js"></script>
 </body>
 </html>
