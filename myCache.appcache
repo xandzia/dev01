@@ -1,0 +1,38 @@
+CACHE MANIFEST
+
+#version 1.0 8-8-2017
+
+CACHE:
+
+#images
+http://127.0.0.1:43559/dev01/img/fon-bg.jpg
+
+#internal HTML documents
+http://127.0.0.1:43559/dev01/index.html
+http://127.0.0.1:43559/dev01/sovety.html
+
+#style sheets
+http://127.0.0.1:43559/dev01/css/normalize.css
+http://127.0.0.1:43559/dev01/css/style.css
+https://fonts.googleapis.com/css?family=Open+Sans:300,400,600
+
+#style sheet images
+"..//img/header-bg.jpg"
+"../img/1.jpg"
+"../img/100.jpg"
+"../img/arrow-left-01.png"
+"../img/arrow-right-01.png"
+"../img/didorovka.jpg"
+"../img/photos3.jpg"
+"../img/photos5.jpg"
+"../img/photos6.jpg"
+
+#javascript files
+
+NETWORK:
+*
+
+FALLBACK:
+/ photos.html
+/ zabegi.html
+/ contact.html
