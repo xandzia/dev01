@@ -4,6 +4,11 @@
     float: left;
     box-sizing: border-box;
 }
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
 
 .col-1 { width: 8.333333333333332%;  }
 .col-2 { width: 16.666666666666664%; }
@@ -151,7 +156,7 @@ form {
 form input {
 	margin: 10px 0;
 }
-form .mail, .message {
+form .mail, .message, .name {
 	width: 100%;
 	padding: 15px;
 	color: #333;
@@ -174,6 +179,7 @@ form .submit:hover {
     color: #1d1c1d;
 
 }
+
 
 
 /*Footer*/

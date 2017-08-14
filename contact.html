@@ -33,11 +33,15 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43296.73341889189!2d31.74558366337294!3d47.293903816150916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c59ba583a6f8e9%3A0xdca12100dd90b26b!2sNova+Odesa%2C+Mykolaivs&#39;ka+oblast!5e0!3m2!1sen!2sua!4v1474259904967" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</map>
 
-	<form action="URL">
-		<input type="text" class="mail" placeholder="Email">
+	<form action="" class="form">
+		<input type="text" class="name" placeholder="Name" name="givenName" id="givenName" maxlength="32" required>
+		<input type="text" class="mail" placeholder="Email" name = "email" id="email" maxlength="128">
 		<textarea name="" id="" cols="30" rows="10" class="message" placeholder="Message"></textarea>
-		<input type="submit" class="submit">
+		<input class="submit" id="addClient" type="submit" onclick="showInsertSect();">
 	</form>
+        <section id="mainContent">
+        <!-- placeholder for data and forms -->
+      </section>
 	</div>
 		
 		
@@ -49,5 +53,8 @@
 			<a href="#" target="_blank">Марафонцы</a>
 		</div>
 	</footer>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="scripts/jquery.flexslider.js"></script>
+	<script src='scripts/main.js'></script>
 </body>
 </html>
